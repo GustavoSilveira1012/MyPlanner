@@ -41,7 +41,6 @@ derDiagram
 
     USUARIO ||--o{ EVENTO : "cria"
     EVENTO ||--o{ PARTICIPANTE : "tem"
-
-```mermaid
     EVENTO ||--o{ CHECKLIST : "possui"
     EVENTO ||--o{ NOTIFICACAO : "gera"
+```mermaid
